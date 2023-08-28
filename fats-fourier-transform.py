@@ -1,4 +1,4 @@
-#回転因子W
+#回転因子 W
 def W_cal(N, k):
     W = math.cos(2*k*math.pi/N) - 1j * math.sin(2*k*math.pi/N)
     return W
